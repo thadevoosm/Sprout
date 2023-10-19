@@ -1,0 +1,153 @@
+
+.articlebanner{
+	background-image: url(../images/articlebanner2.webp);
+	height: 500PX;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+  .articlebanner p{
+	padding-top: 200px;
+	color: #63b7b5 !important;
+	font-size: 60px;
+	font-weight: bold;
+  }
+/* article */
+
+.articleContainer{
+	margin-top: 6%;
+}
+.articleContainer h1{
+	color: white;
+}
+
+/* article Page */
+.list-wrapper {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.list-item {
+	border: 1px solid #EEE;
+	background: #FFF;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.list-item h4 {
+	color: #233C36 ;
+	font-size: 15px;
+	margin: 0 0 5px;
+	line-height: 27px;	
+	font-weight: bold;
+}
+
+#articleHeading {
+	margin: 0;
+	font-size: 12px;
+	color: #233C36 ;
+	font-weight: bold;
+	line-height: 29px;	
+}
+
+.simple-pagination ul {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.simple-pagination li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+	color: #666;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #EEE;
+	background-color: #FFF;
+	
+}
+
+.simple-pagination .current {
+	color: #FFF;
+	background-color: #233C36 ;
+	border-color: #233C36 ;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+	background: #233C36 ;
+}
+.articleImg{
+	width: 90%;
+	text-align: center;
+	padding-top: 10%;
+	padding-left: 6%;
+}
+.articleContent{
+	padding-top: 3%;
+	font-size: 12px;
+}
+.articleLink{
+	color: #233C36  !important;
+	font-size: 15px;
+}
+.articleLink:hover{
+	color: #233C36  !important;
+	font-size: 15px;
+}
+.fb-page{
+	margin-top: 5%;
+	margin-bottom: 50px;
+	width: 400px;
+	padding-left: 10%;  
+  }
+  
+  @media only screen and (max-width: 991px) {
+	.articleContainer{
+		margin-top: 18%;
+	}
+	.list-item{
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	  .fb-page{
+		  padding-left: 0%;  
+		}
+		#articleHeading{
+		  padding-top: 10%;
+		  padding-left: 6%;
+		}
+		.articleContent{
+		  padding-left: 5%;
+		  padding-left: 6%;
+		  padding-top: 3%;
+		  font-size: 12px;
+		}
+		.list-wrapper {
+			padding: 0 !important;
+		}
+		
+		.articlebanner{
+            background-image: url(../images/article50.png);
+           
+            height: 500PX;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+           
+          }
+	  }
+	  @media only screen and (max-width: 678px) {
+		.articleContainer{
+			margin-top: 28%;
+		}
+	}

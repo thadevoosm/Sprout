@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprout</title>
+    <link rel="icon" href="images/sprout_favicon.webp">
+<!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+<!--bootstrap 5.3-->
+ <!--   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+-->
+    <!--fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--aos animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--bootstrap-->
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+<!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top nav_green" id="nav_bar">
+    <div class="container">
+      <img src="images/SPROUT LOGO3.png" id="logo_style" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" id="hamber_color"></i>
+  
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto gap-2">
+          <li class="nav-item rounded">
+            <a class="nav-link" aria-current="page"  href="index.html">HOME</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="who_we_are.html">WHO WE ARE</a>
+          </li>
+          
+          <li class="nav-item rounded">
+            <a class="nav-link" href="what_we_do.html">WHAT WE DO</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="product.html">OUR PRODUCTS </a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link active_index" href="Responsibility.html">RESPONSIBILITY</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="news.html">NEWS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<section class="tab_content_section_what_we_do">
+<div class="container-fluid tab_content_container">
+    
+    <div class="row">
+
+        <div class="col-3">
+         
+          <!-- Tab navs -->
+          <div
+            class="nav flex-column nav-pills text-center res_hed"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <a
+              class="nav-link active"
+              id="v-pills-link1-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-link1"
+              role="tab"
+              aria-controls="v-pills-link1"
+              aria-selected="true"
+              ><span class="tab_span">Responsibility</span>
+              </a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-link2-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-link2"
+              role="tab"
+              aria-controls="v-pills-link2"
+              aria-selected="false"
+              ><span class="tab_span">Our&nbsp;Approach</span></a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-link3-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-link3"
+              role="tab"
+              aria-controls="v-pills-link3"
+              aria-selected="false"
+              ><span class="tab_span">Health&nbsp;&&nbsp;safety</span></a
+            >
+            <a
+              class="nav-link"
+              id="v-pills-link4-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-link4"
+              role="tab"
+              aria-controls="v-pills-link4"
+              aria-selected="false"
+              ><span class="tab_span">Environment</span>
+              </a
+            >
+            <a
+            class="nav-link"
+            id="v-pills-link5-tab"
+            data-mdb-toggle="pill"
+            href="#v-pills-link5"
+            role="tab"
+            aria-controls="v-pills-link5"
+            aria-selected="false"
+            ><span class="tab_span">Sustainability</span>
+            </a
+          >
+          </div>
+          <!-- Tab navs -->
+        </div>
+      
+        <div class="col-9" id="tab-column-space">
+       
+          <!-- Tab content -->
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-link1"
+              role="tabpanel"
+              aria-labelledby="v-pills-link1-tab">
+            
+              
+              <p class="tab_content_heading">Responsibility</p>
+              <div class="res_para">
+       <p class="history_p ">Every organization, no matter what it does, has an effect on the world around it. Being a responsible business means being honest about the consequences of our activities - minimizing the negative impacts and maximizing the positive opportunities.</p>
+        <p class="subheading">Economic Responsibility</p>
+             <p>The foundation for responsibility is profitable business. We want to be a reliable employer, supplier and co-operation partner. Our impact as a local employer is significant.</p> 
+               <p class="subheading">Environmental, Chain of Custody Management and Product Safety Responsibility</p>
+
+              <p >To minimize our impact on the environment, we apply a life-cycle approach and use applicable 
+                environmental technologies. We strive to save natural resources by using raw materials, energy 
+                and other resources efficiently. Our most important raw materials are renewable bio-based 
+                materials. which we use to produce high-quality products for packaging industries. Our products are 
+                safe to use and they fulfill the legislation regarding their intended use, also concerning the 
+                environmental and safety impacts of the chemicals used in production. Our products are recyclable, 
+                home compostable, and also repulpable. We commit to use GMP (good manufacturing practice) and 
+                defined in-house controlling verified by third parties in our production of food contact 
+                materials.</p> 
+                
+                <p>We support sustainable forest management and we use Chain of Custody tracing systems for ran 
+                  materials to ensure that all of the wood raw material and pulp originates for legal and approved 
+                  sources We also require that our raw material suppliers commit to the requirements of our Chain 
+                  of Custody (CoC) management systems.</p>
+              
+        <p class="subheading">Work Safety and Social Responsibility</p>
+        <p>In all of our operations, we adhere to ethical business practices and we create a healthy and safe 
+          workplace for our employees. We respect human rights through equality in our operations and by developing
+           working conditions. We strive to systematically prevent accidents and hazardous situations as well as 
+           illnesses caused by work or working conditions. We are also prepared to operate in the situations of 
+           emergency as well.</p>
+
+        <p class="subheading">Management and Governance</p>
+        <p>Sustainability and safety issues are part of management and the related responsibilities are defined at 
+          all organizational levels. We require that our personnel acknowledge their responsibilities and adhere to 
+          the commitments and obligations concerning their work. We strive to ensure the personnel are aware of the 
+          requirements through communication and training. The management team assigns the required resources and 
+          participates in the operations by carrying out regular safety audits, by setting targets and by regularly 
+          reviewing the success in reaching the targets and the sufficiency of resources.</p>
+        <p class="subheading">Diversity</p>
+        <p class="history_p">Our enduring success relies on generating new and different ideas and perspectives. 
+          At Sprout Group, we want our business to be representative of our people and their communities. To us, 
+          diversity and inclusion means embracing variety in our workforce, valuing different perspectives,
+           building a flexible organization and respecting stakeholder diversity. Good work can be achieved in many
+            ways. We're making great strides equipping our manpower with the skills to lead an inclusive, flexible
+             workplace.</p>
+
+<p class="subheading">
+  Innovation
+  </p>
+  <p>Business sustainability is essential, both for us and our customers. As we evolve responsibly, we always look for smarter and better ways of doing things. It's this attitude - and our willingness to roll up our sleeves and give anything a go - that has taken us from humble beginnings to progressive, proactive industry leaders, open to new Ideas and new ways of doing things.</p> 
+    <p class="subheading">
+      Corporate Social Responsibility
+      </p>
+      <p>
+        We're proud to play a part in making our communities better and we feel privileged that they allow us to do so. We invest heavily to encourage wellbeing, diversity, environment, education and innovation.
+         This <br>sees us:</p>
+    
+         <p> 
+          <ul>
+            <li>Employing women and young people</li>
+            <li>Offering a range of training or traineeships designed to champion engineering</li>
+            <li>Building community partnerships through sponsorship of key initiatives with our 
+              people donating time, money and services to local causes</li>
+              <li>Maximizing social procurement opportunities to create positive social change</li>
+              <li>Partnering with local & International groups to ensure their involvement in our good work.</li>
+          </ul>	
+        </p>
+          <p class="subheading">
+            Our Environmental Focus Areas are:
+            </p>
+            <p class="hidden">●	<span class="sub-heading">Resources and Materials</span>: To conserve natural resources and make sustainable choices<br>
+              ●	<span class="sub-heading">Climate Action</span>: Adapt to and do our part to mitigate climate change<br>
+              ●	<span class="sub-heading">Nature and Pollution</span>: To protect and restore the natural environment</p>
+              
+              <p class="show"><span class="sub-heading">Resources and Materials</span><br> To conserve natural resources and make sustainable choices<br>
+                	<span class="sub-heading">Climate Action</span><br> Adapt to and do our part to mitigate climate change<br>
+                	<span class="sub-heading">Nature and Pollution</span><br> To protect and restore the natural environment</p>
+
+              <p>Sprout Group aspires to be an organization that has a lasting positive environmental impact. 
+                We are committed to disclosing our exposure and resilience to climate change through the lenses of
+                 governance, strategy, risk management, and metrics and targets. Wherever possible we support
+                  innovative solutions that minimize or eliminate the environmental impact of our operations and 
+                  recognise the need for collaborative partnerships with our peers and stakeholders to achieve this
+                   goal.</p>
+                <p class="subheading">
+                  Our Social Focus Areas are:
+                  </p>
+                  <p class="hidden">●&nbsp;<span class="sub-heading">Economic Prosperity</span>: To generate prosperity for the communities we impact <br>
+                    ●&nbsp;<span class="sub-heading">Community inclusion</span>: To create thriving communities rich with culture, equity and resilience<br>
+                    ●&nbsp;<span class="sub-heading">Wellbeing</span>: To support and enhance people's physical and mental wellbeing</p>
+                    
+                    <p class="show"><span class="sub-heading">Economic Prosperity</span> <br> To generate prosperity for the communities we impact <br>
+                     <span class="sub-heading">Community inclusion</span> <br>To create thriving communities rich with culture, equity and resilience<br>
+                     <span class="sub-heading">Wellbeing</span> <br>To support and enhance people's physical and mental wellbeing</p>
+                     
+                  <p>Sprout Group aims to leave a positive and lasting impact on the communities and stakeholders that we interact with. This may be through activities such as providing learning, skilling, and workforce participation opportunities, supporting just and fair employment, and promoting local procurement on our projects. Climate change will not just impact our physical assets, it will also affect our communities, and especially the most vulnerable within them.</p>
+                      <p>Sustainability is a key driver of our competitive advantage and helps to generate long-term value for many of our stakeholders, including our shareholders. Our sustainability commitments and ambition help to position us as a partner of choice for our customers, attract and retain talent in the organization, which helps to drive innovative and resilient solutions across our business. Our evidence-based approach also helps us to proactively respond to the increasing expectation and scrutiny of investors and capital partners.</p>
+
+           </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-link2"
+              role="tabpanel"
+              aria-labelledby="v-pills-link2-tab"
+            >
+        
+            <p class="tab_content_heading">Our Approach</p>
+            <div class=" res_para">
+            <p class="history_p ">We believe in doing business in a way that is fair, transparent and, above all, 
+              safe and sustainable. These are the fundamentals of responsible practice. Without them we cannot
+               build the trust and good faith on which we trade. <br>
+              At Sprout Group we know that a responsible business is a sustainable business. We take our 
+              responsibilities seriously - and none more so than health and safety. No other matter - commercial 
+              or operational - takes precedence over the well being of those involved in or affected by our 
+              activities. <br>
+              We have set ourselves the target of eliminating all accidents from our operations. This is an 
+              ambitious goal. But we are confident we can achieve it through the commitment of all our people 
+              to put health and safety first in everything they do. While this is - and will remain our greatest 
+              priority, we recognize that our responsibilities extend beyond this. To ensure our sustainability 
+              agenda delivers maximum value, we begin by understanding the role we are expected to play 
+              in dealing with the social, economic and environmental challenges of our time. <br>
+              Modern society is changing at a pace not seen since the industrial revolution. While the world’s 
+              population rises exponentially, major demographic shifts are transforming global dynamics. As 
+              businesses strive for commercial sustainability in challenging conditions, they must at the same 
+              time respond to a new economic framework where competitive advantage is determined by the social 
+              and environmental dividends of their operations. <br>
+              The way we manage these interconnected issues will have a material impact on the success of our 
+              business. But if we are to achieve our objectives, we must be honest about the scale of the 
+              undertaking. committed to finding the right solutions and prepared to admit we don't have all the 
+              answers.</p>
+               
+              <p class="subheading_main">How We Structure Our Activities</p>
+                <p>Our sustainability agenda is organized into four key areas:</p>
+                <p>Health and safety, people, environment and marketplace. In our Indian hub our sustainability activities are known as our EPIC agenda. Against each of these components, we have set clear targets and expectations that focus our activities on the areas where we can make the most positive impact or where risk of negative consequences, if not adequately addressed, is greatest.</p>
+                
+                <p class="subheading_main">Our Priorities</p>
+                <p class="hidden">●	<span class="sub-heading">Health and safety</span>: To protect the health and safety of everyone involved in or affected by our operations.<br>
+                  ●<span class="sub-heading">	People</span>: To attract, develop and retain world-class talent, creating an environment that inspires our people to give their best and makes human capital one of our greatest differentiation. <br>
+                  ●<span class="sub-heading">	Environment</span>: To minimize the negative impacts of our operations and maximize the quality of the built environment for future generations. <br>
+                  ●	<span class="sub-heading">Marketplace</span>: To achieve the competitive advantage by delivering maximum value to all our stakeholders - clients, suppliers, communities and the wider industry.</p>
+                
+                  <p class="show"><span class="sub-heading">Health and safety</span><br> To protect the health and safety of everyone involved in or affected by our operations.<br>
+                    <span class="sub-heading">	People</span><br> To attract, develop and retain world-class talent, creating an environment that inspires our people to give their best and makes human capital one of our greatest differentiation. <br>
+                    <span class="sub-heading">	Environment</span><br> To minimize the negative impacts of our operations and maximize the quality of the built environment for future generations. <br>
+                    <span class="sub-heading">Marketplace</span><br> To achieve the competitive advantage by delivering maximum value to all our stakeholders - clients, suppliers, communities and the wider industry.</p>
+                 
+                
+                  <p>Our policies are reviewed and updated annually to react to client needs and evolve with the world around us to make Sprout Group the company of first choice for all our stakeholders, whilst challenging and changing the image of engineering worldwide.</p>
+              </div>
+           </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-link3"
+              role="tabpanel"
+              aria-labelledby="v-pills-link3-tab"
+            >
+           
+            <p class="tab_content_heading">Health & Safety</p>
+            <div class=" res_para">
+            <p class="history_p">Sprout Group is committed to constantly challenging our performance and pushing 
+              the boundaries so that our approach to Health and Safety (H&S) is aligned to the evolution of the 
+              Sprout Group strategy, remains effective and fit for purpose for the sectors and markets in which 
+              we operate and positively influences H&S outcomes in everything we do.<br>
+              In recent times, our aspiration has been to shift our people's relationship with health,
+               safety and well being from one which is transaction and compliance based towards a more empowering 
+               relationship where people are encouraged and supported to use informed judgement and sound risk 
+               management techniques.Underlying this focus is the 
+              H&S Strategic Direction. This defines the actions and focus of leadership and management in providing effective oversight and management 
+              of H&S at all levels across the business in the following areas:</p>
+                 <p class="subheading">Disciplined Delivery</p>
+                 <p class="history_p">Supporting the embedment of the Global Minimum Requirements(GMs)
+                   in achieving a more discipline and consistent delivery model.
+                  </p>
+                  
+                    <p class="subheading">Strong Risk Management</p>
+                    <p class="history_p">Transforming people's relationship with H&S by empowering them to care and manage risk through informed judgement.</p>
+                      <p class="subheading">Driving Innovation</p>
+                      <p class="history_p">Utilizing the innovation pathway to provide focus and direction to solutions that can positively affect safety outcomes. We also remain committed to ensuring our operations remain focused and engaged and to reviewing the composition of the function to ensure we remain as effective as possible in executing this strategy. Although we operate in a dynamic environment and changes will be made to enhance our strategy, the H&S Strategic Direction is resolute and focused in these areas.<br><br>
+                        Achieving this aspiration relies on the implementation of a simple and effective framework that assists our day-to-day decision making and helps our business function safely. Our 2018 GMRs drive this approach across five stages of the operational life cycle. These include governance, investment, design and planning, establishing work environments and delivery, setting parameters on the control and elimination of key risk events faced by our business. There is a deliberate focus on front-end planning and strong risk management meaning that safety begins for Sprout Group well before a project commences and irrespective of the working environment.<br><br>
+                        The H&S Strategic Direction and GMR Framework are essential components in ensuring the safety, health and well being of our people remains our priority. This approach also empowers people to identify and manage H&S risks that are applicable to them, promotes moving beyond minimum statutory and organisational requirements, and leads to innovation and continual improvement. They are all key attributes in our aspiration to create places that care and which are free from incident and injury.</p>
+               </div>     
+            </div>
+          
+            <div
+              class="tab-pane fade"
+              id="v-pills-link4"
+              role="tabpanel"
+              aria-labelledby="v-pills-link4-tab"
+            >
+            
+            <p class="tab_content_heading">Environment</p>
+            <div class=" res_para">
+            <p class="history_p">Sprout Group is committed to the protection and enhancement of the environment. High environmental performance is an ongoing priority and is achieved by our actions in line with this policy. This policy sits alongside our sustainability policy as part of our global policy framework, underpinned by our Global Code of Conduct.<br>
+              We are committed to leading the evolution of our industry to be truly sustainable - environmentally. socially and economically. This is fundamental to our vision to create the best places, places for people today and for generations to come.</p>
+               
+              <div class="container responsibility-images">
+                <img src="images/responsibilityscreenshort.png" alt="" srcset="">
+
+              <!--   <div class="row">
+                  <div class="col-2">
+                    <img src="images/SPROUT WEB PNG 1.png" alt="" srcset="">
+                  </div>
+                  <div class="col-2">
+                    <img src="images/SPROUT WEB PNG 2.png" alt="" srcset="">
+                  </div>
+                  <div class="col-2">
+                    <img src="images/SPROUT WEB PNG 3.png" alt="" srcset="">
+                  </div>
+                  <div class="col-2">
+                    <img src="images/SPROUT WEB PNG 4.png" alt="" srcset="">
+                  </div>
+                  <div class="col-2 res_env">
+                    <img src="images/SPROUT WEB PNG 5.png" alt="" srcset="">
+                  </div>
+                  
+                </div> -->
+              </div>
+              <p class="subheading">Environment Policy</p>
+                <p>Our goal is to minimize the negative impacts of our operations and maximize the quality of the built environment for future generations. Through innovation and application of good practice, we aim to steer the industry to design a sustainable and high-quality built environment with as little environmental impact as possible through the whole asset life-cycle.<br>
+                  Our policies are reviewed and updated annually to react to client needs and evolve with the world around us to make Sprout the company of first choice for all our stakeholders, whilst challenging and changing the image of lifestyle worldwide.
+                </p>
+                <p class="subheading">Leaving Positive Environmental Legacies</p>
+                <p>
+                  <ul>
+                    <li>We understand that effective environmental management is an ethical and commercial imperative.</li>
+                    <li>Our environmental plans are developed at the planning phase of each project and enacted throughout the project lifecycle to help preserve and protect the environment.</li>
+                    <li>We analyze the environmental footprint of our operations and identify how we can lessen any impacts, including recycling and reusing waste materials, reducing carbon emissions, protecting flora and fauna, monitoring waterways, and replenishing affected areas to regenerate ecosystems.</li>
+                    <li>Our researchers are constantly working on introducing better biodegradable products for our needs today and tomorrow.</li>
+                  </ul>
+                 </p>
+                <p class="subheading">Our Commitment</p>
+                <p>
+                  <ul>
+                    <li>As a multifaceted company of over a decade standing we have always appreciated the natural cycle of sustainability and circular economy.</li>
+                    <li>We are committed to the continual improvement in our environmental impact whilst conducting our day to day business.</li>
+                    <li>We are actively involved in influencing the industry wide response to environmental challenges and opportunities across the food service market.</li>
+                    <li>All our products are designed and manufactured with our mother nature in mind that they are all biodegradable, compostable and recyclable.</li>
+                    <li>We do not harm our nature. Our primary goal itself is to do the business without harming our Earth and Health.</li>
+                  </ul>
+               
+                </p>
+                
+                               
+                    
+                
+                </div>  
+                
+              </div>
+
+              <div
+              class="tab-pane fade"
+              id="v-pills-link5"
+              role="tabpanel"
+              aria-labelledby="v-pills-link5-tab"
+            >
+        
+            <p class="tab_content_heading">Sustainability</p>
+            <div class=" res_para">
+            <p class="history_p">We see sustainability as the only way to do business. That’s why we invest in the 
+              communities we work in, bridging gaps and creating economic value. It’s our way of improving the 
+              world we’ll live in tomorrow .Our values align with the UN Sustainable Development Goals, which 
+              were set up in 2015 by the UN General Assembly as an urgent call to action by all countries to work 
+              together in a global partnership towards peace and prosperity for people and the planet and in the 
+              future. We recognise our part to play in supporting the targets behind these 17 SDGs and are working 
+              tirelessly to achieve them by 2030. The SDGs that Sprout aligns with most are:</p>
+               
+            <div class="container sustainable-images">
+              <div class="row">
+                <div class="col-2">
+                  <img src="images/11_sustainable.jpg" alt="" srcset="">
+                </div>
+                <div class="col-2">
+                  <img src="images/12_sustainable.png" alt="" srcset="">
+                </div>
+                <div class="col-2">
+                  <img src="images/13_sustainable.png" alt="" srcset="">
+                </div>
+                <div class="col-2">
+                  <img src="images/14_sustainable.jpg" alt="" srcset="">
+                </div>
+                <div class="col-2">
+                  <img src="images/15_sustainable.png" alt="" srcset="">
+                </div>
+                <div class="col-2">
+                  <img src="images/17_sustainable.png" alt="" srcset="">
+                </div>
+              </div>
+            </div>
+            
+            <p class="sustainability_main">"At Sprout this is what sustainability has always been about getting it right for people. Which means getting it right for the environment, for society and for the economy."</p>
+                
+                <p class="subheading">Sustainability Principles</p>
+               <p class="social_main">Environmental, Social responsibility, Work and Product Safety and Chain of Custody principles.</p>
+                  <p>Sprout Group is committed to managing and developing its business in a sustainable manner in matters concerning the economy, environment, people and society. We adhere to our values and principles in all countries we operate in. We comply with and, when necessary, go beyond the requirements of our customers and national legislation and regulations. <br>
+                    Responsibility in all of our operations and striving for continuous improvement are our key operating principles. Targets are set for business, environmental, work and product safety as well as wellbeing of the personnel, goals and their realization to our stakeholders. We expect our suppliers and partners to comply with our policies and principles related to sustainability and product safety. <br>
+                  </p>
+                    <p class="subheading">Sustainability Policy</p>
+                    <p>Sustainability is about maximizing our environmental, economic and socio-economic performance, in the interests of the business, our stakeholders and our planet. Sprout Group is uniquely placed through our private ownership to take a long-term approach to sustainability. This policy sits alongside our Health and Safety, Environment, Human Capital and Customer Service policies as part of our global policy framework. <br>
+                      As an Enduring Engineering & Manufacturing Enterprise we are implementing a strategy which aims to create sustainable growth by meeting the economic, social and environmental challenges of our rapidly changing world.</p>
+                      <p class="susta_hed">Sustainability will be pursued as an integral part of fulfilling our corporate vision. We will continually strive, and expect, to:</p>
+                        <p>
+                          <ul>
+                            <li>Be accident and injury free.</li>
+                            <li>Create exceptional, long term sustainable outcomes for all our clients.</li>
+                            <li>Have no loss making projects.</li>
+                            <li>Work to the highest ethical, social and environmental standards.</li>
+                            <li>Achieve industry-leading low-carbon performance.</li>
+                            <li>Promote a culture of learning, diversity and inclusion.</li>
+                            <li>Develop our people. They are our most important assets.</li>
+                            <li>Enrich the communities in which we work.</li>
+                            <li>Have no environmental incidents.</li>
+                            <li>Engage our supply chain and partners in promoting our policy.</li>
+                          </ul>
+                         
+                          
+
+                        </p>
+                          </div>
+
+              </div>
+           
+        
+            </div>
+            </div>
+          </div>
+          <!-- Tab content -->
+        </div>
+    </div>
+</div>
+</section>
+    
+   <!-- Footer -->
+   <section class="footer">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted ">
+    <!-- Section: Social media -->
+   
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="footer_content">
+      <div class="container text-center text-md-start mt-5 ">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content
+            <h6 class="text-uppercase fw-bold mb-4">
+                <img src="images/SPROUT LOGO WITH TAGLINE.png" style="width: 50%;">
+             
+            </h6> -->
+
+            <div class="logo-tagline">
+              <img src="images/SPROUT LOGO3.png" >
+             
+              <br>
+                <p class="footer_social"><a href="https://www.facebook.com/sproutprivatelimited" target="_blank">
+                  <i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;
+                  <a href="whatsapp://send?text=Hello Sprout&amp;phone=+91 965 651 2535"><i class="fa-brands fa-whatsapp"></i></a>
+                </p>
+            </div>
+               
+                
+            
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Company
+            </h6>
+            <p class="footer-p">
+              <a href="index.html" class="text-reset">Home</a>
+            </p>
+            <p class="footer-p">
+              <a href="who_we_are.html" class="text-reset">About Us</a>
+            </p>
+            <p class="footer-p">
+              <a href="what_we_do.html" class="text-reset">What We Do</a>
+            </p>
+            <p class="footer-p">
+              <a href="product.html" class="text-reset">Our Products</a>
+            </p>
+            <p class="footer-p">
+                <a href="brand-with-us.html" class="text-reset">Brand With Us</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Responsibility
+            </h6>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Environment</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Sustainability</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Our approach</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Health & safety</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+            <p class="footer-p"> <a href="tel:+91 965 651 2535">  +91 965 651 2535</a></p>
+            
+            <p class="footer-p"> <a href="mailto:sales@sproutgroup.com">sales@sproutgroup.com</a>            
+             
+            </p>
+            <p class="footer-p">Sprout Group,
+                Nr.Rubco Latex Factory, 
+                Sreekandapuram, Kannur, 
+                Kerala,India-670631</p>
+            
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+  <!--  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023. All Rights Reserved.
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">  Design by BrandGuru Insights Pvt.Ltd</a>
+    </div> -->
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+   </section>
+  
+
+<!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+
+<script>
+    AOS.init();
+  </script>
+  <script src="js/scrolling.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../transfonter.org-20230228-060807/AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('../transfonter.org-20230228-060807/AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: 0 !important;
+    background-color: #233C36 !important; 
+    font-family: 'Avenir Next LT Pro' !important;
+   
+}
+a{
+    text-decoration: none !important;
+}
+p{
+    font-size: 16px;
+    font-family: 'Avenir Next LT Pro' !important;
+   
+}
+
+/* navbar */
+.navbar{
+    box-shadow: none !important;
+}
+#logo_style{
+    width: 8%;
+}
+.nav_green{
+    background-color: #233C36; 
+}
+.nav-item a{
+    color: white !important;
+    font-size: 15px;
+}
+.active_index{
+    background-color: #368129;
+    border-radius: 23px;
+    color: white !important;
+}
+.nav-item a:hover{
+    color: #368129;
+}
+#index_color{
+    color: #368129 !important;
+}
+#hamber_color{
+    color: white !important;
+}
+
+
+.nav-link{
+    font-weight: 500 !important;
+    color: black !important;
+    text-align: left;
+    text-transform: capitalize !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+   
+    border: none !important;   
+    background: none !important;
+    color: black !important;    
+    font-weight: 500;
+   
+}
+
+.nav-pills .nav-link.active:hover{
+    color: #65bd5a !important;
+}
+.headlogo img{
+   width: 50%;
+   border-top-left-radius: 41px;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+}
+

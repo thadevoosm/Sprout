@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprout</title>
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+
+    <!--bootstrap responsive navbar-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+    <!--google font : poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+    <!--styleSheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top nav_green" id="nav_bar">
+    <div class="container">
+      <img src="images/SPROUT LOGO3.png" id="logo_style" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" id="hamber_color"></i>
+  
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto gap-2">
+          <li class="nav-item rounded">
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="who_we_are.html">WHO WE ARE</a>
+          </li>
+          
+          <li class="nav-item rounded">
+            <a class="nav-link" href="what_we_do.html">WHAT WE DO</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link active_index" href="product.html">OUR PRODUCTS </a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="Responsibility.html">RESPONSIBILITY</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="news.html">NEWS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!--product detail section-->
+    <section class="product_detail_section">
+        <div class="container product_detail_container">
+          <div class="container">
+            <p class="product_detail_head"><span>Biodegradable & Recyclable</span> Paper Cup Fans</p>
+            <div class="row">
+                <div class="product_detail_col_one">
+                    <p>Unlike traditional plastic cup fans that can take hundreds of years to decompose, our
+                        biodegradable paper cup fans are fully compostable, making them the perfect choice
+                        for eco-conscious individuals and businesses. No more guilt about contributing
+                        to the plastic waste problem!
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/fan_150ml.png" alt="cup image" class="specification_image_fan">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/fan_300ml.png" alt="cup image" class="specification_image_fan">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/fan_210ml.png" alt="cup image" class="specification_image_fan">
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+             
+            </div>
+            </div>
+            <!--product form-->
+            <div class="container">
+            <div class="row form_row">
+                
+                <div class="col-md-9">
+                    <form action="">
+                        <p class="form_head">Product Enquiry</p>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 product_form">
+                            <input type="text" placeholder="Product Name">
+                        </div>
+                        <div class="col-md-4 product_form">
+                            <input type="text" placeholder="Your Name" class="name_mobile_input">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 product_form">
+                            <input type="email" placeholder="Email ID">
+                        </div>
+                        <div class="col-md-4 product_form">
+                            <input type="text" placeholder="Mobile Number" class="name_mobile_input">
+                        </div>
+                    </div>
+                    <div class="row product_form">
+                        <textarea name="" id="" cols="3" rows="4" placeholder="Enter Your Message"></textarea>                       
+                    </div>
+                    <button type="submit" class="product_specification_button"><span>Submit</span></button>
+                  </div>
+                </form>
+                </div>
+                <div class="col-md-3 download-col-form">
+                  <img src="images/download_icon.png" alt="brochure"><br>
+                  <button type="submit" class="product_specification_button" id="brochure_button">Download Flyer</button>
+              </div>
+            
+            </div>
+            </div>
+
+   <!--product range-->
+   <div class="container " id="product_inner_products">
+    <p id="with-love">See  Our Product Range!</p>
+    <div class="row">
+        <div class="col-md-9">
+            <!--product grid-->
+            <div class="container index_love_products">
+              <div class="row" id="index_love_products_row">
+  
+  
+                <div class="col-lg-4 seeRange">
+                  <img src="images/new-cup.png">
+           <p class="love_products_head" onclick = "window.location.href='product.html#coffecup';"><span>Plastic free paper cups</span></p>
+           </div>
+  
+                <div class="col-lg-4 seeRange">
+                  <img src="images/new-foodcontainer.png">
+              <p class="love_products_head" onclick = "window.location.href='product.html#foodbag';"><span>Sustainable packaging</span></p>
+           
+                </div>
+  
+                <div class="col-lg-4 seeRange">
+                  <img src="images/new-plates.png">
+                <p class="love_products_head" onclick = "window.location.href='plastic_free_plates.html';"><span>Bio paper plate</span></p>
+            
+                </div>
+              </div>
+  
+              
+  
+              <div class="row" id="product_inner_next_row">
+                
+                <div class="col-lg-4 seeRange">
+                  <img src="images/new-straw.png">
+                  <p class="love_products_head" onclick = "window.location.href='sprout_straws.html';"><span>Bio paper straw</span></p>
+                  </div>
+  
+               <div class="col-lg-4 seeRange">
+                <img src="images/new-leaf.png">
+                <p class="love_products_head" onclick = "window.location.href='product_banana_leaf.html';"><span>Plastic free paper leaf</span></p>
+             
+              </div>
+
+              <div class="col-lg-4 seeRange">
+                <img src="images/new-reel.png">
+                  <p class="love_products_head" onclick = "window.location.href='reels_green_pack.html';"><span>Bio&nbsp;paper&nbsp;reels</span></p>
+              </div>
+  
+                
+  
+               
+      
+              
+              </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 download-col">            
+          <img src="images/download_icon.png" alt="brochure" class="download-icon"><br> <br>          
+          <button type="submit" class="product_specification_button" id="product-list-download">Download Brochure</button>
+      </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+   <section class="footer">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted ">
+    <!-- Section: Social media -->
+   
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="footer_content">
+      <div class="container text-center text-md-start mt-5 ">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content
+            <h6 class="text-uppercase fw-bold mb-4">
+                <img src="images/SPROUT LOGO WITH TAGLINE.png" style="width: 50%;">
+             
+            </h6> -->
+
+            <div class="logo-tagline">
+              <img src="images/SPROUT LOGO3.png" >
+             
+              <br>
+                <p class="footer_social"><a href="https://www.facebook.com/sproutprivatelimited" target="_blank">
+                  <i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;
+                  <a href="whatsapp://send?text=Hello Sprout&amp;phone=+91 965 651 2535"><i class="fa-brands fa-whatsapp"></i></a>
+                </p>
+            </div>
+               
+                
+            
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Company
+            </h6>
+            <p class="footer-p">
+              <a href="index.html" class="text-reset">Home</a>
+            </p>
+            <p class="footer-p">
+              <a href="who_we_are.html" class="text-reset">About Us</a>
+            </p>
+            <p class="footer-p">
+              <a href="what_we_do.html" class="text-reset">What We Do</a>
+            </p>
+            <p class="footer-p">
+              <a href="product.html" class="text-reset">Our Products</a>
+            </p>
+            <p class="footer-p">
+                <a href="brand-with-us.html" class="text-reset">Brand With Us</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Responsibility
+            </h6>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Environment</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Sustainability</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Our approach</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Health & safety</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+            <p class="footer-p"> <a href="tel:+91 965 651 2535">  +91 965 651 2535</a></p>
+            
+            <p class="footer-p"> <a href="mailto:sales@sproutgroup.com">sales@sproutgroup.com</a>            
+             
+            </p>
+            <p class="footer-p">Sprout Group,
+                Nr.Rubco Latex Factory, 
+                Sreekandapuram, Kannur, 
+                Kerala,India-670631</p>
+            
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+  <!--  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023. All Rights Reserved.
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">  Design by BrandGuru Insights Pvt.Ltd</a>
+    </div> -->
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+   </section>
+  
+
+ <!-- MDB -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+
+</body>
+</html>

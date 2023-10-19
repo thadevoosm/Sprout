@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sprout</title>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+    <!--bootstrap responsive navbar-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+
+   <!--styleSheet-->
+   <link rel="stylesheet" href="css/style.css">
+   <!--fontawesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--graph script-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+ 
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top nav_green_index" id="nav_bar">
+        <div class="container">
+          <img src="images/SPROUT LOGO3.png" id="logo_style" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list" id="hamber_color"></i>
+      
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-md-auto gap-2">
+              <li class="nav-item rounded">
+                <a class="nav-link active_index" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="who_we_are.html">WHO WE ARE</a>
+              </li>
+              
+              <li class="nav-item rounded">
+                <a class="nav-link" href="what_we_do.html">WHAT WE DO</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="product.html">OUR PRODUCTS </a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="Responsibility.html">RESPONSIBILITY</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="news.html">NEWS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!--banner desk view-->
+<div class="home_slider_new">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+
+    <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="4"></button>
+  </div>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="banner-container">
+          <img src="images/firstslider.jpg"  class="d-block w-100 img-fluid banner_index_image" alt="...">
+          <div class="banner-content">
+           
+              <button class="banner-button" onclick = "window.location.href='who_we_are.html';">
+                <span>Read More</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="banner-container">
+          <img src="images/secondsliders.jpg"  class="d-block w-100 img-fluid banner_index_image" alt="...">
+          <div class="banner-content_one">
+           
+              <button class="banner-button" onclick = "window.location.href='product.html#reel';">
+              <span>Read More</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="banner-container">
+          <img src="images/threedslider.jpg"  class="d-block w-100 img-fluid banner_index_image" alt="...">
+          <div class="banner-content_five">
+           
+              <button class="banner-button" onclick = "window.location.href='product.html';">
+              <span>Read More</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="banner-container">
+          <img src="images/fourthslider.jpg"  class="d-block w-100 img-fluid banner_index_image" alt="...">
+          <div class="banner-content_two">
+           
+              <button class="banner-button" onclick = "window.location.href='Responsibility.html';">
+              <span>Our Commitment</span></button>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="carousel-item">
+        <div class="banner-container">
+          <img src="images/fivrslider.jpg"  class="d-block w-100 img-fluid banner_index_image" alt="...">
+          <div class="banner-content_three">
+           
+              <button class="banner-button" onclick = "window.location.href='who_we_are.html#award';">
+              <span>Read more</span></button>
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+    <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+     
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      
+      <span class="visually-hidden">Next</span>
+    </button> -->
+  </div>
+  </div>
+
+
+
+
+   <!--index what is sprout-->
+   <section class="what_is_sprout">
+    <div class="container-fluid what-is-sprout-container">
+      
+          
+            <div class="row">
+              <div class="col-md-7 earth-col">
+                <div class="logo-icon">
+
+                </div>
+                <img src="images/what_sprout.png" alt="earth_image" srcset="">
+                
+              </div>
+              <div class="col-md-5 sprout-col">
+                <p class="sprout-col-what">What is <span>Sprout</span>?</p>
+                <p class="sprout-col-what-content"> Sprout is the answer to single-use plastic packaging 
+                  challenges, revolutionizing with comprehensive and catchy eco-friendly alternatives. 
+                  Our sustainable solutions reduce waste, nurture a healthier planet, 
+                  and deliver biodegradable packaging that leaves a positive sprout on the environment.
+                </span> 
+                </p>
+                <div class="container noPlastic">
+                  <div class="row">
+                    <div class="col-2 plastic">
+                      <img src="images/index-icon2.png" >
+                      <p class="no_plastic">No plastic</p>
+                    </div>
+                    <div class="col-2 plastic">
+                      <img src="images/index-icon6.png">
+                      <p class="no_plastic">Biodegradable</p>
+                    </div>
+                    <div class="col-2 plastic">
+                      <img src="images/index-icon5.png" >
+                      <p class="no_plastic">Recyclable</p>
+                    </div>
+                    <div class="col-2 plastic">
+                      <img src="images/index-icon1.png" >
+                      <p class="no_plastic">Compostable</p>
+                    </div>
+                   
+                    <div class="col-2 plastic">
+                      <img src="images/index-icon3.png" >
+                      <p class="no_plastic">Sustainable
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="banner-button" onclick = "window.location.href='who_we_are.html';">
+
+                  <span>Read more</span></button>
+                  
+                  
+                 
+                
+                <p class="social-icon">
+                  <div class="social-icon">
+                    <i class="fa-brands fa-instagram"></i> 
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="bi bi-linkedin"></i>
+                  </div>
+                </p>
+               
+              </div>
+            </div>
+      
+     
+        </div>
+       
+ </section>
+
+<!--biodegradble product section-->
+<section class="bio_product_section"> 
+  
+    
+  <!--start_why_us-->
+  
+    <p class="why_index_new container">Why Us?</p>
+  
+    <div class="container-fluid why-us-container">
+      <div class="row">
+        <div class="col-3 plastic-free-card">
+          
+          <div class="container plastic-free-content text-center">
+            <img src="images/ddqd-01.png" class="text-center">
+            <p><span class="card-content-head text-center">Plastic Free</span>
+              <p class="cards-contents">Our CIPET Plastic Free certification ensures seamless 
+                compliance with Europe's single-use plastic 
+                directives, showcasing our commitment to sustainability 
+                and environmental stewardship.</p>
+            </p>
+          </div>
+    
+        </div>
+        <div class="col-3 microwavable-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/recy2.png" class="text-center">
+            <p><span class="card-content-head">Sustainable</span>
+              
+         <p class="cards-contents">Our sustainable products are crafted from responsibly sourced paper, 
+          preserving forests and promoting an environmentally conscious production cycle.</p>
+          </div>
+    
+        </div>
+        <div class="col-3 compostable-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/sustainabil2.png" class="text-center">
+            <p><span class="card-content-head">Recyclable</span>
+              
+              <p class="cards-contents">Certified by India's CPPRI, our products are fully recyclable and repulpable, 
+                supporting our commitment to sustainability and contributing to a circular economy.</p>
+        
+          </div>
+    
+        </div>
+        <div class="col-3 sustainable-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/compostable2.png" class="text-center">
+            <p><span class="card-content-head">Compostable</span></p>
+              
+           
+            <p class="cards-contents">  Our products are home compostable, enhancing convenience 
+              and promoting an eco-friendly waste management system for sustainable living.</p>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="row">
+
+       
+        <div class="col-3 food-safe-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/harmful2.png" class="text-center">
+            <p><span class="card-content-head">No Harmful 
+              Chemicals</span>
+              
+              <p class="cards-contents">Our products prioritize safety and the environment 
+                by being free from harmful 
+                chemicals like PFAS and OBA, ensuring non-toxic options for our customers.</p>
+        
+          </div>
+    
+        </div>
+        <div class="col-3 recyclable-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/foofsafe2.png" class="text-center">
+            <p><span class="card-content-head">Food Safe</span></p>
+            <p class="cards-contents">Our products meet strict international food safety standards,
+               guaranteeing compliance and customer confidence in their safety for consumption.</p>
+          </div>
+    
+        </div>
+        <div class="col-3 no-harmful-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/micro2.png" class="text-center">
+            <p><span class="card-content-head"> Microwavable</span>
+              
+             </p>
+             <p class="cards-contents">Our products excel in heat resistance, withstanding temperatures of up to 
+              230 degrees Celsius for one hour, fully compliant with EU regulation 1935/2004.  </p>
+        
+          </div>
+    
+        </div>
+        <div class="col-3 no-harmful-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/waterbased2.png" class="text-center">
+            <p><span class="card-content-head"> Water-Based</span>
+              
+             </p>
+             <p class="cards-contents">By opting for aqueous coating instead of plastic coating,
+              we provide an eco-friendly alternative that 
+              preserves product quality and minimizes our environmental footprint.  </p>
+        
+          </div>
+    
+        </div>
+      </div>
+    
+
+    
+     <!-- <div class="row">
+      
+        <div class="col-4 no-harmful-card">
+          <div class="container plastic-free-content text-center">
+            <img src="images/custom2.png" class="text-center">
+            <p><span class="card-content-head"> Customizable</span>
+              
+             </p>
+             <p class="cards-contents">Our products offer exceptional versatility, tailored to your unique needs. 
+              With advanced technology and coatings, 
+              we cater to diverse requirements and product lines, ensuring flexibility and adaptability. </p>
+        
+          </div>
+    
+        </div>
+   
+      </div>
+     -->
+    
+    </div>
+    <!--end_why_us-->
+
+
+
+
+  <div class="container with-love-new-container">
+
+  <div class="row">
+    <p class="bio_product_col_one_head">Our Biodegradable Products</p>
+    <div class="col-md-8 bio_product_col_one">
+       <!-- <p class="bio_product_col_one_head" id="oBack">Our Biodegradable Products</p> -->
+       
+        <p class="bio_product_col_one_content">Our plastic free disposable products are biodegradable. They leave no trace on our environment
+        and they are home compostable too. You don't need any industrial facility to compost our
+        products. Moreover, You don't have to worry about collecting them back from the beaches, valleys,
+        or streets because they are going to decompose or degrade naturally. You know why?
+        Simply because our products do not have a plastic coating.</p>
+        <p class="bio_product_col_one_subhead">Make our mother <span>nature Happy</span>. Our products <span> do not harm your health or pollute our wonderful Earth!</span></p>
+     
+        <p class="with-love">With Love to Our Planet </p>
+        
+    </div>
+    <div class="col-md-4 bio_product_col_two">
+      <img class="img-fluid" src="images/Sprout Image 02.png" alt="">
+    </div>
+    
+</div>
+</div>
+    <div class="index_with_love">
+     
+
+        <div class="container index_love_products">
+          <div class="row" id="index_love_products_row">
+            <div class="col-lg-3 index_love_products_column_one">
+              <div class="container text-center productImage">
+                <img src="images/new-cup.jpg" class="text-center">
+                <p class="love_products_head text-center" onclick = "window.location.href='product.html#coffecup';">
+                  <span>Plastic free Paper Cups</span></p>                  
+                </div>
+            </div>
+
+            <div class="col-lg-3 index_love_products_column_two">
+              <div class="container text-center productImage">
+                <img src="images/new-foodcontainer.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#foodbag';">
+                <span>Sustainable Packaging</span></p>
+            </div>
+            </div>
+
+            <div class="col-lg-3 index_love_products_column_five">
+              <div class="container text-center productImage">
+                
+                <img src="images/new-plates.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#bioplate';">
+                <span>Bio Paper Plate</span></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 index_love_products_column_six">
+              <div class="container text-center productImage">
+              <img src="images/new-straw.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#straw';">
+                <span>Bio Paper Straw</span></p>
+            </div>
+          </div>
+
+          
+
+          <div class="row" id="product_next_row">
+            
+            <div class="col-lg-3 index_love_products_column_three">
+              <div class="container text-center productImage">
+                <img src="images/new-leaf.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#leaf';"><span>Plastic free Paper Leaf</span></p>
+            </div>
+            </div>
+
+            
+
+            
+
+            <div class="col-lg-3 index_love_products_column_seven">
+              <div class="container text-center productImage">
+                <img src="images/new-fan.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#fan';"><span>Bio Paper Fans</span></p>
+            </div>
+            </div>
+
+            <div class="col-lg-3 index_love_products_column">
+             <div class="container text-center productImage">
+                    <img src="images/new-reel.jpg" class="text-center">
+              <p class="love_products_head" onclick = "window.location.href='product.html#reel';"><span>Bio&nbsp;Paper&nbsp;Reels</span></p>
+            </div>
+            </div>
+
+          
+          </div>
+        </div>
+
+    </div>
+  
+    <div class="we_also">
+        <div class="container">
+       
+          <p class="we-also-head">We Also Do</p>
+          <div class="row">
+            <div class="col-3 we_also_column">
+              <img src="images/what_w1_1.gif">
+             
+            <a href="what_we_do.html">  <p class="we_also_products">Supply & Distribution</p> </a>
+            </div>
+            <div class="col-3 we_also_column">
+              <img src="images/what_we_2.gif">
+              <a href="what_we_do.html">   <p class="we_also_products">Inspection & Repair</p> </a>
+            </div>
+            <div class="col-3 we_also_column">
+              <img src="images/what_we_3.gif">
+              <a href="what_we_do.html">    <p class="we_also_products" id="integration">Integration & Supply Management</p> </a>
+            </div>
+            <div class="col-3 we_also_column">
+              <img src="images/what_we_5.gif">
+              <a href="what_we_do.html">   <p class="we_also_products">Consultancy & Services</p> </a>
+            </div>
+          </div>
+          </div>
+      
+        
+     </div>
+</div>
+  
+</section>
+
+  <!--brand with us-->
+<section class="environmet_section">
+    <div class="container brand_container">
+      <div class="row">
+        <div class="col-6 brand_container_col_one">
+          <img src="images/brand-people.png" alt="" srcset="">
+        </div>
+        <div class="col-6 brand_container_col_two">
+          <p class="environment_container_col_two_head_brand"><span class="brand_head">Brand</span> With Us</p>
+          <p class="environment_container_col_two_content" id="brand-pargraph">Sustainable paper products and packaging offer a 
+            fantastic opportunity to communicate your message directly to your customers. Whether you're running a
+             brand marketing campaign, promoting a seasonal message, or launching a new promotional program, 
+             custom-printed sustainable paper products are a surefire way to make your business stand out. 
+             With the current market being highly saturated, it's crucial to differentiate yourself and 
+             establish a recognizable brand. Sustainable paper products and packaging have become increasingly 
+             important in brand positioning for coffee houses, helping to boost visibility and create a positive 
+             impact on the environment.</p>
+            <!--  <button type="button" class="button_common" id="brand_button" onclick = "window.location.href='brand-with-us.html';">See How It Works!</button>
+            -->  
+            <button type="button" class="banner-button" id="brand-with-us-button" onclick = "window.location.href='brand-with-us.html';">
+              <span> How It Works!</span></button>
+          
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!--environment pledge-->
+<section class="environmet_section">
+  <div class="container environment_container">
+    <div class="row">
+      <div class="col-6 environment_container_col_one">
+        <img src="images/camping-in-nature.gif" alt="" srcset="">
+      </div>
+      <div class="col-6 environment_container_col_two">
+        <p class="environment_container_col_two_head">Our <span class="envi_head">Environmental</span>  Pledge</p>
+        <p class="environment_container_col_two_content">Sprout Group is committed to the protection and 
+          enhancement of 
+          the environment. High environmental performance is an ongoing 
+          priority and is achieved by our actions in line with this policy. This 
+          policy sits alongside our sustainability policy as part of our global 
+          policy framework, underpinned by our Global Code of Conduct.</p>
+          <p class="environment_container_col_two_content">We are committed to leading the evolution of our industry to be truly sustainable- environmentally, socially
+            and economically. This is fundamental to our vision to create the best places, places 
+            for people today and for generation to come.
+          </p>
+            <button type="button" class="banner-button" onclick = "window.location.href='Responsibility.html';"><span>Our Commitment</span></button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--graph -->
+<section class="graph-section hidden">
+  <div class="analytic container">
+  <div class="row">
+    <div class="col-2">
+      <p class="left_top hidden">Did you <span>Know</span>?</p>
+    </div>
+    <div class="col-4 graph_explin hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/icon-02.png" style="width: 100%;">
+          </div>
+          <div class="col-9">
+            <p>Plastic coated paper cups are made of polyethylene, a petroleum by-product & the same stuff that fuels our vehicles.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/icon-03.png" width="100%">
+          </div>
+          <div class="col-9">
+            <p>All plastics including bio-plastics, plant-plastics, and PLA plastics are harmful to the marine environment.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/icon-04.png" width="100%">
+          </div>
+          <div class="col-9">
+            <p>Each day we use 500,000,000 plastic coated paper cups;enough to fill,46,400 large school busses per year.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/icon-05.png" width="100%">
+          </div>
+          <div class="col-9">
+            <p>Plastic coated paper cups are among the top 10 debris items.44% of all seabirds & mammals have ingested plastic.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/icon-06.png" width="100%">
+          </div>
+          <div class="col-9">
+            <p>90% of all trash floating in the world's oceans is comprised of plastic.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 graph_map">
+            <p style="font-weight: bold;">Countries banned Single Use Plastics</p>
+            <img src="images/map-01.png">
+          </div>
+          <div class="col-6">
+            <div class="country">
+              <ul>
+              <li>India</li>
+              <li>Phillipines</li>
+              <li>Indonesia</li>
+              <li>Thailand</li>
+              <li>Europe</li>
+              <li>North America</li>
+              <li>Australia</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-6 chart_column hidden">
+      <div id="chart_div_one"></div>
+    
+    </div>
+  </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+   <section class="footer">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted ">
+    <!-- Section: Social media -->
+   
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="footer_content">
+      <div class="container text-center text-md-start mt-5 ">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content
+            <h6 class="text-uppercase fw-bold mb-4">
+                <img src="images/SPROUT LOGO WITH TAGLINE.png" style="width: 50%;">
+             
+            </h6> -->
+
+            <div class="logo-tagline">
+              <img src="images/SPROUT LOGO3.png" >
+             
+              <br>
+                <p class="footer_social"><a href="https://www.facebook.com/sproutprivatelimited" target="_blank">
+                  <i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
+                  <a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;
+                  <a href="whatsapp://send?text=Hello Sprout&amp;phone=+91 965 651 2535"><i class="fa-brands fa-whatsapp"></i></a>
+                </p>
+            </div>
+               
+                
+            
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Company
+            </h6>
+            <p class="footer-p">
+              <a href="index.html" class="text-reset">Home</a>
+            </p>
+            <p class="footer-p">
+              <a href="who_we_are.html" class="text-reset">About Us</a>
+            </p>
+            <p class="footer-p">
+              <a href="what_we_do.html" class="text-reset">What We Do</a>
+            </p>
+            <p class="footer-p">
+              <a href="product.html" class="text-reset">Our Products</a>
+            </p>
+            <p class="footer-p">
+                <a href="brand-with-us.html" class="text-reset">Brand With Us</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             Responsibility
+            </h6>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Environment</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Sustainability</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Our approach</a>
+            </p>
+            <p class="footer-p">
+              <a href="Responsibility.html" class="text-reset">Health & safety</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+            <p class="footer-p"> <a href="tel:+91 965 651 2535">  +91 965 651 2535</a></p>
+            
+            <p class="footer-p"> <a href="mailto:sales@sproutgroup.com">sales@sproutgroup.com</a>            
+             
+            </p>
+            <p class="footer-p">Sprout Group,
+                Nr.Rubco Latex Factory, 
+                Sreekandapuram, Kannur, 
+                Kerala,India-670631</p>
+            
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+  <!--  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023. All Rights Reserved.
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">  Design by BrandGuru Insights Pvt.Ltd</a>
+    </div> -->
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+   </section>
+  
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+  <!--graph-->
+  <script src="js/graph_script.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+
+  </body>
+</html>
