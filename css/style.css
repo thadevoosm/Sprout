@@ -1378,10 +1378,10 @@ padding-top: 12% !important;
 }
 .biodegradable_paper_bags{
     
-    padding-top: 5%;
+    /* padding-top: 5%; */
     background-color: #fafafa;
     border-radius: 90px;
-    padding-top: 3% !important;  
+    /* padding-top: 3% !important;   */
 }
 .plates{
     text-align: right;
@@ -1913,7 +1913,10 @@ padding-bottom: 3%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding-bottom: 3%;
+    padding-bottom: 3.5%;
+    position: relative;
+    top: 1rem;
+
     
    }
 .impact_on_environment_straws{
@@ -4219,6 +4222,8 @@ transform: translateY(-50%);
 }
 #thomas{
     background-image: url(../images/card-thomas.png);
+    position: relative;
+    left: -10px;
 }
 #neethu{
     background-image: url(../images/card-neethu.png);
@@ -4228,7 +4233,7 @@ transform: translateY(-50%);
 }
 #chinnu{
     background-image: url(../images/card-chinnu.png);
-    margin-left:2%;
+    /* margin-left:2%; */
 
 }
 
