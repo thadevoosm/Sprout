@@ -966,6 +966,7 @@ padding-bottom: 2%;
     color: rgb(168, 141, 106);
     font-weight: bold;
 }
+    
 .product_detail_head span{
    
     font-weight: bolder !important;
@@ -1099,6 +1100,14 @@ padding-bottom: 2%;
   .product_specification_button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+  #brochure_button{
+margin-top: 20px;
+align-items: center;
+display: inline-flex;
+position: relative;
+left: 22%;
+transform: translateX(-50%);
   }
   #brochure_button:hover{
     border: none;
@@ -2399,6 +2408,12 @@ text-align: center;
 }
 .download-col-form {
     text-align: center;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
 }
 
 
@@ -3126,6 +3141,11 @@ button{
         .tab_content_heading{
             text-align: center !important;
         }
+        .quick_content{
+            left: -20%;
+            position: relative;
+            bottom: 0.6rem;
+        }
         .tab_content_section {
             margin-top: 12%;
         }
@@ -3304,6 +3324,10 @@ button{
     #product_inner_products{
         margin-top: 8%;
     }
+    .product_detail_head{
+        font-size: 25px;
+        margin-top: 40px;
+    }
     #product-list-download{
         margin-left: 33%;
         margin-bottom: 5%;
@@ -3479,7 +3503,7 @@ button{
             margin-top: 12%;
         }
         .product_detail_section{
-            margin-top:15.5%;
+            margin-top:20% !important;
             }
     }
     @media only screen and (max-width: 574px) {
@@ -3750,7 +3774,7 @@ button{
             margin-top: 0%;
         }
         #brochure_button{
-            margin-left: 29%;
+            margin-left: 50%;
         }
     }
     @media only screen and (max-width:578px) and (min-width:500px){
@@ -4369,7 +4393,8 @@ width: 100%;
 
 @media only screen and (max-width: 541px) {
     .banner-button{
-        margin-left: 0% !important;
+        margin-left: 50% !important;
+        margin-bottom: 15px !important;
     }
     .social-icon {
        
